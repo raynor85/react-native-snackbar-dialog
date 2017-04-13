@@ -17,15 +17,15 @@ import {
   TouchableWithoutFeedback
 } from 'react-native'
 
-const DEFAULT_DURATION: number = 5000
+const DEFAULT_DURATION: number = 4000
 const DEFAULT_FADEOUT_DURATION: number = 250
 const INITIAL_POSITION_BOTTOM: number = -180
 const INITIAL_POSITION_TOP: number = 0
 const TO_POSITION_BOTTOM: number = 180
 const TO_POSITION_TOP: number = -360
 
-const STYLE_BANNER_COLOR: string = '#000000'
-const TEXT_COLOR_ACCENT: string = '#0088ff'
+const STYLE_BANNER_COLOR: string = '#333333'
+const TEXT_COLOR_ACCENT: string = '#ffa726'
 
 const { width } = Dimensions.get('window')
 
@@ -45,25 +45,26 @@ const styles = StyleSheet.create({
   },
 
   text: {
-    padding: 15,
-    fontSize: 16
+    paddingHorizontal: 12,
+    paddingVertical: 14,
+    fontSize: 14
   },
 
   inlineText: {
     flex: 1,
-    padding: 15,
-    fontSize: 16
+    paddingHorizontal: 12,
+    paddingVertical: 14,
+    fontSize: 14
   },
 
   buttonContainer: {
     paddingHorizontal: 12,
-    paddingVertical: 10
+    paddingVertical: 14
   },
 
   button: {
-    fontSize: 16,
-    fontWeight: '500',
-    marginLeft: 8
+    fontSize: 14,
+    fontWeight: '500'
   },
 
   actionRow: {
@@ -77,7 +78,8 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'space-between',
-    padding: 18
+    minHeight: 48,
+    paddingHorizontal: 12
   },
 
   flat: {
