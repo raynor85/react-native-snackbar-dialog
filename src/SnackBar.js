@@ -17,7 +17,7 @@ import {
   TouchableWithoutFeedback
 } from 'react-native'
 
-const DEFAULT_DURATION: number = 4000
+const DEFAULT_DURATION: number = 6000
 const DEFAULT_FADEOUT_DURATION: number = 250
 const INITIAL_POSITION_BOTTOM: number = -180
 const INITIAL_POSITION_TOP: number = 0
