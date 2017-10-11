@@ -66,7 +66,7 @@
     "babel-preset-react-native": "^4.0.0",
     "prop-types": "^15.6.0",
     "react-mixin": "^4.0.0",
-    "react-native-root-siblings": "^1.2.1",
+    "react-native-root-siblings": "github:Ken-Lim/react-native-root-siblings",
     "react-timer-mixin": "^0.13.3",
     "rimraf": "^2.6.2"
   },

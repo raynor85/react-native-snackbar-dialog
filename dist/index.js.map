@@ -1,1 +1,1 @@
-{"version":3,"sources":["../src/index.js"],"names":[],"mappings":"yDAAA,kD;;AAEe,+B","file":"index.js","sourcesContent":["import SnackBarManager from './SnackBarManager'\n\nexport default new SnackBarManager()\n"]}
+{"version":3,"sources":["../src/index.js"],"names":[],"mappings":"yDAAA,kD,kKAEe,+B","file":"index.js","sourcesContent":["import SnackBarManager from './SnackBarManager'\n\nexport default new SnackBarManager()\n"]}
