@@ -1,5 +1,6 @@
 // @flow
 
+import { StyleSheet } from 'react-native'
 type SnackPosition = 'bottom' | 'top';
 
 export type SnackItemType = {
@@ -13,7 +14,7 @@ export type SnackItemType = {
   onCancel?: Function,
 
   // Style
-  style?: Object,
+  style?: StyleSheet.Styles,
   backgroundColor?: string,
   buttonColor?: string,
   textColor?: string,
@@ -25,7 +26,7 @@ export type SnackItemType = {
   duration?: number,
   isStatic?: boolean,
   tapToClose?: boolean,
-  
+
   // Content
   renderContent?: Function
 }
